@@ -14,7 +14,6 @@ public class MemoryMemberRepository implements MemberRepository{
         store.put(member.getId(),member);
         //store 맵에 member의 id,키로 member 저장. put사용함
 
-
     }
 
     @Override
